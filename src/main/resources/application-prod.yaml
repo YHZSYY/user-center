@@ -2,11 +2,12 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver #com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://43.139.254.123:3306/user_center
-    username: dogyupi
-    password: yupi666
+    url: jdbc:mysql://127.0.0.1:3306/user_center
+    username: root
+    password: root
   # session 失效时间
-
+  server:
+    address: 0.0.0.0
   #java -jar .\user-center-1.0-SNAPSHOT.jar --spring.profiles.active=prod
 
 
